@@ -1,9 +1,12 @@
 {
-    "builds": [
+    "engines": {
+      "node": "16.x"
+    },
+    "rewrites": [
       {
-        "src": "package.json",
-        "use": "@vercel/static-build"
+        "source": "/(.*)",
+        "destination": "/"
       }
     ]
-  }
+}
   
