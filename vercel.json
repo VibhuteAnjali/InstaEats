@@ -1,7 +1,5 @@
 {
-    "engines": {
-      "node": "16.x"
-    },
+ 
     "rewrites": [
       {
         "source": "/(.*)",
